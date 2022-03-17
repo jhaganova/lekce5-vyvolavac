@@ -57,8 +57,6 @@ function tahnoutJmeno() {
 }
 
 
-// foreach tazenajmena put element in the other thing (jmena.push(ele))
-// clear out tazena jmena (.clear?)
 
 function resetNames() {
     tazenaJmena.forEach(function(ele,idx) {
@@ -71,4 +69,7 @@ function resetNames() {
 
     let counterElement = document.querySelector('#counter');
     counterElement.textContent = 0;
+
+    let vyherce = document.querySelector('#vyherka');
+    vyherce.textContent = "";
 }
