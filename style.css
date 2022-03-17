@@ -76,7 +76,14 @@ h2 {
 	transform: translateY(3px);
 }
 
+.reset {
+	margin-top: 20px;
+	background: #ff0844 linear-gradient(to bottom, #ff0844 0%, #ffb199 100%);
+}
+
 
 #counter {
 	font-size: 22px;
+	
 }
+

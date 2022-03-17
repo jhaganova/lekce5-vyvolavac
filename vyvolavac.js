@@ -55,3 +55,20 @@ function tahnoutJmeno() {
     let counterElement = document.querySelector('#counter');
     counterElement.textContent = parseInt(counterElement.textContent) + 1;
 }
+
+
+// foreach tazenajmena put element in the other thing (jmena.push(ele))
+// clear out tazena jmena (.clear?)
+
+function resetNames() {
+    tazenaJmena.forEach(function(ele,idx) {
+        jmena.push(ele);
+    });
+    tazenaJmena.length = 0;
+
+    let seznam = document.querySelector('#seznam');
+    seznam.textContent = "-";
+
+    let counterElement = document.querySelector('#counter');
+    counterElement.textContent = 0;
+}
